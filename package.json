@@ -1,0 +1,30 @@
+{
+  "name": "express-cbt-backend",
+  "version": "1.0.0",
+  "description": "Backend for Express CBT",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukebrillianth/express-cbt-backend.git"
+  },
+  "keywords": [
+    "express-cbt"
+  ],
+  "author": "yukebrillianth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yukebrillianth/express-cbt-backend/issues"
+  },
+  "homepage": "https://github.com/yukebrillianth/express-cbt-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^2.0.15"
+  }
+}
